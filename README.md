@@ -42,3 +42,10 @@ The following code performs the ner tagging of the extracted text from the `wiki
 ```
 ./ner.sh ../fanwiki.txt
 ```
+## Step 4: Indetify NER
+
+Runnning the file `ner-listing.py` for extracting the list of NER inside each line for the files   `stanford-wikipedia.txt` and  `stanford-fanwiki.txt` .
+
+```
+python ner-listing.py
+```
