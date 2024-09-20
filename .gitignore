@@ -1,4 +1,4 @@
 
 /stanford-ner-2020-11-17/
 !/stanford-ner-2020-11-17/stanford-ner.sh
-
+extract_gold.py
