@@ -54,14 +54,14 @@ on	O
 his	O
 program	O
 The	O
-Colbert	O
+Colbert	PERSON
 Report	O
 both	O
 then	O
 seen	O
 on	O
-Comedy	O
-Central	O
+Comedy	ORGANIZATION
+Central	ORGANIZATION
 
 About	O
 000	O
@@ -287,8 +287,8 @@ at	O
 Stewart	PERSON
 s	O
 The	O
-Daily	O
-Show	O
+Daily	ORGANIZATION
+Show	ORGANIZATION
 as	O
 early	O
 as	O
@@ -373,7 +373,7 @@ the	O
 social	O
 news	O
 website	O
-Reddit	LOCATION
+Reddit	O
 independently	O
 began	O
 to	O
@@ -403,7 +403,7 @@ some	O
 news	O
 articles	O
 credited	O
-Reddit	LOCATION
+Reddit	O
 for	O
 the	O
 idea	O
@@ -415,8 +415,8 @@ produced	O
 by	O
 Stewart	PERSON
 s	O
-Busboy	O
-Productions	O
+Busboy	ORGANIZATION
+Productions	ORGANIZATION
 
 Announcement	O
 Stewart	PERSON
