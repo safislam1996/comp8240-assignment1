@@ -53,17 +53,22 @@ python ner-listing.py
 
 
 
-| Entity | P            | R      | F1     | TP | FP | FN |
+| Entity | Precision            | Recall     | F1     | TP | FP | FN |
 |--------|------------|--------|--------|----|----|----|
 | LOCATION | 0.6667     | 1.0000 | 0.8000 | 4  | 2  | 0  |
 | ORGANIZATION | 0.6000 | 0.5000 | 0.5455 | 3  | 2  | 3  |
 | PERSON | 0.9130       | 0.9545 | 0.9333 | 21 | 2  | 1  |
 | Totals | 0.8235       | 0.8750 | 0.8485 | 28 | 6  | 4  |
 
-| Entity |P        | R      | F1     | TP | FP | FN |
+Table 1: Evaluation score for 'wikipedia-gold' file
+
+| Entity |Precision        | Recall      | F1     | TP | FP | FN |
 |-------|---------|--------|--------|----|----|----|
 | LOCATION | 0.0000 | 1.0000 | 0.0000 | 0  | 1  | 0  |
 | PERSON |1.0000   | 0.9677 | 0.9836 | 30 | 0  | 1  |
 | Totals |0.9677   | 0.9677 | 0.9677 | 30 | 1  | 1  |
 
+Table 2: Evaluation score for 'fanwiki-gold' file
 
+### Interpretion of the evaluation score
+- A precision score of 66.7 % for the LOCATION entity extracted from wikipedia file represent that 2/3 of the locations tagged were correct
